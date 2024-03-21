@@ -4,6 +4,7 @@ import { Props } from "."
 
 export const Titulo = styled.h3<Props>`
   color: #282a35;
+  margin-bottom: 16px;
   font-size: calc(
     ${({ fontSize }) => (fontSize ? fontSize + "px" : "14px")} + 0.7vh
   );
