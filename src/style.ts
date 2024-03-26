@@ -16,6 +16,9 @@ const EstiloGlobal = createGlobalStyle`
 export default EstiloGlobal
 
 export const Container = styled.div`
+  ul {
+    list-style: none;
+  }
   max-width: 1024px;
   width: 100%;
   margin: 0 auto;
