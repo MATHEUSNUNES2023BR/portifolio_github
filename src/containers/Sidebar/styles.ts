@@ -12,11 +12,14 @@ export const BotaoTema = styled.button`
   border-radius: 7px;
   margin: 0 auto;
   padding: 7px;
-  color: #eee;
-  background-color: #282a35;
+  color: ${props => props.theme.corDeFundo};
+  background-color: ${props => props.theme.corPrinciapl};
 `
 export const SidebarContainer = styled.div`
   position: sticky;
   top: 0;
   left: 0;
+  @media (max-width: 768px) {
+    margin-bottom: 35px;
+  }
 `

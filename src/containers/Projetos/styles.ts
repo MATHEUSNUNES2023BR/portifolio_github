@@ -7,7 +7,9 @@ export const Lista = styled.ul`
   row-gap: 42px;
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
+    width: 98%;
     column-gap: 0;
     row-gap: 16px;
+    margin: 0 auto;
   }
 `
