@@ -8,6 +8,7 @@ const EstiloGlobal = createGlobalStyle`
   }
   body{
     padding-top: 56px;
+    padding-bottom: 49px;
     @media (max-width: 768px){
       padding-top: 16px;
     }
@@ -25,9 +26,7 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: 14vw auto;
   column-gap: 7vw;
-  img {
-    max-width: 100%;
-  }
+
   @media (max-width: 768px) {
     max-width: 80%;
     display: block;

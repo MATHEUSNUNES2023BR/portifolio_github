@@ -1,7 +1,7 @@
 import styled from "styled-components"
-export const Img = styled.img`
-  display: block;
+export const FotoPerfil = styled.img`
+  width: 28vh;
   border-radius: 50%;
-  width: 30vh;
+  display: block;
   margin: 0 auto;
 `
